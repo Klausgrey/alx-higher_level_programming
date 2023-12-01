@@ -5,4 +5,3 @@ def print_list_integer(my_list=[]):
     for i in x:
         print(f"{i}")
         i +=1
-        
