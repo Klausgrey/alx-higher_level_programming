@@ -4,6 +4,4 @@ if __name__ == '__main__':
     i = 0
     for x in argv[1:]:
         i += int(x)
-
     print(i)
-    
