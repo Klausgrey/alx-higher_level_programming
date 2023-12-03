@@ -3,7 +3,7 @@ def multiple_returns(sentence):
     length = len(sentence)
     if length == 0:
         char = None
-        return char
+        return lenght, char
     else:
         char = sentence[0]
         return length, char
