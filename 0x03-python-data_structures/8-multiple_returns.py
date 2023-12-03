@@ -6,4 +6,4 @@ def multiple_returns(sentence):
         return (length, char)
     else:
         char = None
-    return (length, char)
+        return (length, char)
