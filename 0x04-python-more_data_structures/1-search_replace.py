@@ -6,4 +6,4 @@ def search_replace(my_list, search, replace):
             newList.append(replace)
         else:
             newList.append(i)
-    return  newList
+    return newList
