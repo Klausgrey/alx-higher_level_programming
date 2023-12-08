@@ -2,7 +2,7 @@
 def roman_to_int(roman_string):
     if roman_string is None:
         return 0
-    if not isinstance(roman_string,str):
+    if not isinstance(roman_string, str):
         return 0
     romanValue = {
         'I': 1,
