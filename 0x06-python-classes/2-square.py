@@ -1,11 +1,11 @@
 #!/usr/bin/python37
 
+
 ''' Defines a square class '''
 
+
 class Square:
-
-    """ This is a square class checks if the size is an integer or is less than zero """
-
+    """ This is a square class checks if the size is an integer or is < 0 """
     def __init__(self, size=0):
         self.size = size
         if type(size) is not int:
