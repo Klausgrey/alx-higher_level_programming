@@ -1,6 +1,8 @@
 #!/usr/bin/python37
 
+
 ''' Defines a square class '''
+
 
 class Square:
     """ This is a square class checks if the size is an integer or is < 0 """
@@ -11,7 +13,7 @@ class Square:
     def size(self):
         """ Public instance method that returns size """
         return self.__size
-        
+
     @size.setter
     def size(self, value):
         if not isinstance(value, int):
